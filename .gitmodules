@@ -1,0 +1,6 @@
+[submodule "deps/polyscope"]
+	path = deps/polyscope
+	url = https://github.com/nmwsharp/polyscope.git
+[submodule "deps/pmp-library"]
+	path = deps/pmp-library
+	url = https://github.com/pmp-library/pmp-library.git
