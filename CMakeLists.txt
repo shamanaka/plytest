@@ -40,7 +40,8 @@ endif()
 
 # == Deps
 add_subdirectory(deps/polyscope)
+add_subdirectory(deps/pmp-library)
 
 # == test
 add_executable(test "src/main.cpp")
-target_link_libraries(test polyscope)
+target_link_libraries(test polyscope pmp-library)
